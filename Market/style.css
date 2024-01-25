@@ -1,0 +1,32 @@
+.container{
+  border-radius: 8px;
+  background: radial-gradient(circle, rgb(100,100,100), rgb(10,10,10));
+  height: 75vh;
+  width: 50vh;
+  margin-top: 5vh;
+  box-shadow: 0px 0px 7px white;
+  padding-top: 2vh;
+}
+.glass{
+  color: chocolate;
+  padding-left: 2vh;
+  padding-top: 0.5vh;
+}
+.search{
+  border-radius: 25px;
+  background-color: rgb(125,125,125);
+  width: fit-content;
+}
+.box{
+  background: none;
+  border: none;
+  color: white;
+}
+.box::placeholder{
+  color: white;
+}
+input{
+  outline: none;
+  background: none;
+  border: none;
+}
