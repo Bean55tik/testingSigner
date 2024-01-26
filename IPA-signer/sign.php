@@ -3,10 +3,10 @@ ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
-$ipa = $_GET['ipa'];
-$p12 = $_GET['p12'];
-$mobileprovision = $_GET['mobileprovision'];
-$password = $_GET['pass'];
+$ipa = $_POST['ipa'];
+$p12 = $_POST['p12'];
+$mobileprovision = $_POST['mobileprovision'];
+$password = $_POST['pass'];
 
 // Upload IPA
 $curl = curl_init('https://api.starfiles.co/upload/upload_file');
